@@ -86,7 +86,7 @@ const VailLandingPage: React.FC = () => {
     return colors[score] || '#334155';
   };
 
-  const appleStoreUrl = "#";
+  // const appleStoreUrl = "#";
   const playStoreUrl = "https://play.google.com/store/apps/details?id=com.thebarterverse.vail&pcampaignid=web_share";
 
   const navLinks = [
@@ -190,7 +190,7 @@ const VailLandingPage: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-              <button onClick={() => window.open(appleStoreUrl)} className="flex items-center justify-center gap-3 bg-white text-slate-950 px-8 py-4 rounded-xl font-black text-xs tracking-widest uppercase">
+              <button className="flex items-center justify-center gap-3 bg-white text-slate-950 px-8 py-4 rounded-xl font-black text-xs tracking-widest uppercase">
                 <Smartphone className="w-5 h-5" /> App Store
               </button>
               <button onClick={() => window.open(playStoreUrl)} className="flex items-center justify-center gap-3 bg-slate-800 text-white px-8 py-4 rounded-xl font-black text-xs tracking-widest uppercase">
@@ -343,7 +343,7 @@ const VailLandingPage: React.FC = () => {
         <div id="download" className="bg-gradient-to-br from-violet-600 to-indigo-900 rounded-[2rem] md:rounded-[3.5rem] p-10 md:p-24 text-center space-y-8 md:space-y-10 shadow-2xl relative overflow-hidden">
           <h2 className="text-4xl md:text-7xl font-black text-white tracking-tighter uppercase italic leading-[1.1]">Go Dark. <br />Go Vail.</h2>
           <div className="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
-            <button onClick={() => window.open(appleStoreUrl)} className="bg-white text-indigo-950 px-8 py-4 rounded-xl font-black uppercase text-[10px] tracking-widest">Download iOS</button>
+            <button className="bg-white text-indigo-950 px-8 py-4 rounded-xl font-black uppercase text-[10px] tracking-widest">Download iOS</button>
             <button onClick={() => window.open(playStoreUrl)} className="bg-indigo-500 text-white border border-white/20 px-8 py-4 rounded-xl font-black uppercase text-[10px] tracking-widest">Download Android</button>
           </div>
         </div>

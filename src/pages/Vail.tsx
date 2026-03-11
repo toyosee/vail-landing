@@ -89,7 +89,7 @@ const VailLandingPage: React.FC = () => {
     return colors[score] || '#334155';
   };
 
-  const appleStoreUrl = "https://vail.netlify.app";
+  const appleStoreUrl = "https://vailapp.netlify.app";
   const playStoreUrl = "https://play.google.com/store/apps/details?id=com.thebarterverse.vail&pcampaignid=web_share";
 
   const navLinks = [
